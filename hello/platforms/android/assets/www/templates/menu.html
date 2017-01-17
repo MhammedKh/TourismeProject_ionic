@@ -1,0 +1,48 @@
+<ion-side-menus enable-menu-with-back-views="false" >
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable bar-dark mynavbar">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left" >
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left"    width="myWidthValue + 250" class="changeMenu" ng-hide="hideLeft">
+    <ion-content>
+      <ion-list>
+        <div class="avatarMenu"> 
+            
+
+                      <h2>Menu</h2>
+
+            
+        </div>
+
+
+          <ion-item menu-close href="#/app/camera">
+              <img src="img/ic_photo_camera_white_24px.svg">
+              <span>Take a picture</span>
+          </ion-item>
+
+          <ion-item menu-close href="#/app/map/00332866341/63c0828b3505bc7b647eab48a08c8a6d.jpeg/0033286634">
+              <img src="img/ic_location.svg">
+              <span style="color:white;">See picture</span>
+          </ion-item>
+         <!--
+        <ion-item menu-close href="#/app/inscription">
+          inscription
+        </ion-item>
+
+        <ion-item menu-close ng-click="login()">
+          Login
+        </ion-item>
+        -->
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

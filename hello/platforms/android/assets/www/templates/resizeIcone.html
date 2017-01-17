@@ -1,0 +1,52 @@
+<ion-view  view-title="Take a picture" class="bg-app" hide-back-button="true"><!--hide-back-button="true"-->
+	ion-nav-bar>
+	<ion-nav-buttons side="left">
+		<!-- Toggle left side menu -->
+		<button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+	</ion-nav-buttons>
+
+	</ion-nav-bar>
+	<!--<ion-nav-bar class="bar-stable bar-dark mynavbar">
+		<ion-nav-back-button class="button-clear go-back">
+		</ion-nav-back-button>
+	</ion-nav-bar>-->
+	<ion-content>
+
+		<div class="content-inscri-2 padding">
+				<div class="btnAdd">
+					<center>
+						<div class="row responsive-sm">
+							<div class="col col-50">
+								<img style="border:2px solid black;  "  id="myImage"  src="img/imgg.png" class=" item-thumbnail" ng-hide="data.ftLoad[1]"/>
+								<img  ng-show="data.ftLoad[1]"  class=" item-thumbnail" ng-src="{{data.picData[1]}}"  />
+
+							</div>
+
+						</div>
+					</center>
+				</div>
+
+
+
+
+
+
+			<label class="item item-input item-stacked-label item-border marg-top-ins">
+				<span class="input-label input-label-2">Title</span>
+				<input type="text" ng-value="{{titre}}" class="style-input" ng-model="titre" id="camera_titre" disabled>
+			</label>
+
+			<label class="item item-input item-stacked-label item-border marg-top-ins">
+				<span class="input-label input-label-2">Description</span>
+				<input type="text" ng-value="{{desc}}" class="style-input" ng-model="desc" id="camera_desc" disabled>
+			</label>
+
+
+		</div>
+
+
+
+
+
+	</ion-content>
+</ion-view>

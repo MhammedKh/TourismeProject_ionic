@@ -1,0 +1,32 @@
+<ion-view view-title="Authentification" class="bg-app">
+	<ion-nav-bar class="bar">
+
+	</ion-nav-bar>
+	<ion-header-bar style=" background-color: black ; ">
+		<h1 class="title" style="color : white;" >Authentication</h1>
+		<!-- <div class="buttons">
+           <button class="button button-clear" ng-click="closeLogin()">Close</button>
+         </div> -->
+	</ion-header-bar>
+
+	<ion-content>
+
+		<div class="content-inscri-2 padding">
+
+			<label class="item item-input item-stacked-label item-border marg-top-ins">
+				<span class="input-label input-label-2">Login</span>
+				<input type="email" class="style-input" ng-model="loginData.email" id="login_email">
+			</label>
+
+			<label class="item item-input item-stacked-label item-border marg-top-ins">
+				<span class="input-label input-label-2">Password</span>
+				<input type="password" class="style-input" ng-model="loginData.pw" id="login_pw">
+			</label>
+
+			<a class="button button-block button-energized button-energized-2" type="submit" ng-click="doLogin(loginData)">Log in</a>
+			<a class="button button-block button-energized button-energized-2" type="submit" ng-click="createAccount()">Create account</a>
+
+		</div>
+
+	</ion-content>
+</ion-view>

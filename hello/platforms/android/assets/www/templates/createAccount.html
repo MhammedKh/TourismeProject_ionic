@@ -1,0 +1,55 @@
+<ion-view view-title="Authentification" class="bg-app">
+	<ion-nav-bar class="bar">
+
+	</ion-nav-bar>
+	<ion-header-bar style=" background-color: black ; ">
+		<h1 class="title" style="color : white;" >Create Account</h1>
+		<!-- <div class="buttons">
+           <button class="button button-clear" ng-click="closeLogin()">Close</button>
+         </div> -->
+	</ion-header-bar>
+
+	<ion-content>
+
+		<div class="content-inscri-2 padding">
+
+
+
+
+			<label class="item item-input item-stacked-label item-border marg-top-ins">
+				<span class="input-label input-label-2">last name</span>
+				<input id="nom" type="text" ng-model="accountData.nom" class="style-input"  required>
+			</label>
+			<label class="item item-input item-stacked-label item-border marg-top-ins">
+				<span class="input-label input-label-2">first name</span>
+				<input id="prenom" type="text" ng-model="accountData.prenom" class="style-input" required>
+			</label>
+			<label class="item item-input item-stacked-label item-border marg-top-ins">
+				<span class="input-label input-label-2">Age</span>
+				<input  id="age"type="number" ng-model="accountData.age" class="style-input" min="12"required>
+			</label>
+			<label class="item item-input item-stacked-label item-border marg-top-ins">
+				<span class="input-label input-label-2">Email</span>
+				<input id="email" type="email" ng-model="accountData.email" class="style-input" required>
+			</label>
+			<label class="item item-input item-stacked-label item-border marg-top-ins">
+				<span class="input-label input-label-2">Password</span>
+				<input id="mp" type="password" ng-model="accountData.mp" class="style-input" required>
+			</label>
+			<label class="item item-input item-stacked-label item-border marg-top-ins">
+				<span class="input-label input-label-2">Confirm Password</span>
+				<input id="cmp" type="password" ng-model="accountData.cmp" class="style-input" required>
+			</label>
+
+			<a class="button button-block button-energized button-energized-2" type="submit" ng-click="create(accountData)">Create</a>
+
+
+
+		</div>
+
+
+
+
+
+	</ion-content>
+</ion-view>

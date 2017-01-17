@@ -1,0 +1,49 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.example.hello"
+        },
+        "cordova-plugin-camera": {
+            "CAMERA_USAGE_DESCRIPTION": " ",
+            "PHOTOLIBRARY_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.example.hello"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.example.hello"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.example.hello"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.example.hello"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.example.hello"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.example.hello"
+        },
+        "cordova-plugin-filepath": {
+            "PACKAGE_NAME": "com.example.hello"
+        },
+        "cordova-plugin-actionsheet": {
+            "PACKAGE_NAME": "com.example.hello"
+        },
+        "cordova-plugin-geolocation": {
+            "GEOLOCATION_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.example.hello"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.example.hello"
+        }
+    }
+}

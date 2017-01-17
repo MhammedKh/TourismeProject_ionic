@@ -1,0 +1,91 @@
+<ion-view  view-title="Home" class="bg-app" hide-back-button="true"><!--hide-back-button="true"-->
+
+	<ion-nav-buttons side="left">
+		<!-- Toggle left side menu -->
+		<button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+	</ion-nav-buttons>
+
+
+	<!--<ion-nav-bar class="bar-stable bar-dark mynavbar">
+		<ion-nav-back-button class="button-clear go-back">
+		</ion-nav-back-button>
+	</ion-nav-bar>-->
+	<ion-content>
+
+		<div class="content-inscri-2 padding">
+				<div class="btnAdd">
+					<center>
+						<div class="row responsive-sm">
+							<div class="col col-50" ng-if="srcs[0]">
+								<img style="border:2px solid black;  " src=" {{srcs[0]}}" class=" item-thumbnail" />
+
+								<h3>{{names[0] }}</h3>
+
+							</div>
+							<div class="col col-50" ng-if="!srcs[0]">
+								<img style="border:2px solid black;  " src=" img/imgg.png" class=" item-thumbnail" />
+
+							</div>
+
+
+
+							<div class="col col-50" ng-if="srcs[1]">
+								<img style="border:2px solid black;  " src=" {{srcs[1]  }}" class=" item-thumbnail" />
+
+								<h3>{{names[1] }}</h3>
+
+							</div>
+							<div class="col col-50" ng-if="!srcs[1]">
+								<img style="border:2px solid black;  " src=" img/imgg.png" class=" item-thumbnail" />
+
+
+
+							</div>
+						</div>
+						<div class="row responsive-sm">
+							<div class="col col-50" ng-if="srcs[2]">
+								<img style="border:2px solid black;  " src=" {{srcs[2]  }}" class=" item-thumbnail" />
+
+								<h3>{{names[2] }}</h3>
+
+							</div>
+							<div class="col col-50" ng-if="!srcs[2]">
+								<img style="border:2px solid black;  " src=" img/imgg.png" class=" item-thumbnail" />
+
+
+
+							</div>
+							<div class="col col-50" ng-if="srcs[3]">
+								<img style="border:2px solid black;  " src=" {{srcs[3] }}" class=" item-thumbnail" />
+
+								<h3>{{names[3] }}</h3>
+
+							</div>
+							<div class="col col-50" ng-if="!srcs[3]">
+								<img style="border:2px solid black;  " src=" img/imgg.png" class=" item-thumbnail" />
+
+
+							</div>
+							<div class="col col-50" ng-if="srcs[4]">
+								<img style="border:2px solid black;  " src=" {{srcs[4] }}" class=" item-thumbnail" />
+
+								<h3>{{names[4] }}</h3>
+
+							</div>
+							<div class="col col-50" ng-if="!srcs[4]">
+								<img style="border:2px solid black;  " src=" img/imgg.png" class=" item-thumbnail" />
+
+
+
+							</div>
+						</div>
+					</center>
+				</div>
+		</div>
+
+
+
+
+
+	</ion-content>
+</ion-view>
